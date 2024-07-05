@@ -1,0 +1,82 @@
+/* App.css */
+
+/* App container styles */
+.App {
+  font-family: Arial, sans-serif;
+  background-image: url("https://img.freepik.com/free-psd/3d-rendering-questions-background_23-2151455632.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.app-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Question component styles */
+.question-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(245, 242, 242, 0.1);
+}
+
+.question {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.option {
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Score component styles */
+.score-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.score-text {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.next-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.next-btn:hover {
+  background-color: #218838;
+}
